@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <title>賽車輪胎耗損計算器</title>
+    <link rel="stylesheet" href="tire.css">
+</head>
+<body>
+    <div class="container">
+        <h1>賽車輪胎耗損計算器</h1>
+        <form id="tireForm">
+            <label>第一套輪胎：
+                <select id="tire1">
+                    <option value="red">紅胎</option>
+                    <option value="yellow">黃胎</option>
+                    <option value="white">白胎</option>
+                </select>
+            </label>
+            <label>第一套輪胎圈數（1~59）：
+                <input type="number" id="lap1" min="1" max="59" value="30">
+            </label>
+            <label>第二套輪胎：
+                <select id="tire2">
+                    <option value="red">紅胎</option>
+                    <option value="yellow">黃胎</option>
+                    <option value="white">白胎</option>
+                </select>
+            </label>
+            <label>第二套輪胎圈數（1~59）：
+                <input type="number" id="lap2" min="1" max="59" value="30">
+            </label>
+            <button type="button" onclick="calculate()">計算總時間</button>
+        </form>
+        <div class="result" id="result"></div>
+    </div>
+    <script src="tire.js"></script>
+</body>
+</html>

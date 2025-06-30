@@ -1,0 +1,6 @@
+body { font-family: Arial, sans-serif; background: #f5f5f5; padding: 30px; }
+.container { background: #fff; padding: 24px; border-radius: 8px; max-width: 500px; margin: auto; box-shadow: 0 2px 8px #ccc; }
+h1 { text-align: center; }
+label { display: block; margin-top: 16px; }
+select, button { margin-top: 8px; padding: 6px 12px; }
+.result { margin-top: 24px; background: #e9ffe9; padding: 16px; border-radius: 6px; }
